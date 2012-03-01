@@ -5,7 +5,7 @@ import sys, os
 from PyQt4 import QtGui, QtCore
 from subprocess import call, Popen
 
-configurationFile = '/home/sadam/.kadu-profiles'
+configurationFile = os.getenv("HOME") + '/.kadu-profiles'
 
 class KaduProfiles(QtGui.QWidget):
     

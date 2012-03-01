@@ -1,0 +1,7 @@
+Simple script for running kadu (http://www.kadu.im) with multiple users profiles. 
+
+Basically script invokes kadu with  --config-dir <path> , but I made some GUI, so it may be useful for someone :) 
+
+Simplest way to run it is probably by making shortcut in ~/.local/share/applications (or just use 'python kadu-profiles.py' :))
+
+Dependencies: python (2.x and 3.x should work), pyqt.
